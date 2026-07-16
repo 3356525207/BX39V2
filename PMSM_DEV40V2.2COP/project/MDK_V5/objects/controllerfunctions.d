@@ -1,0 +1,20 @@
+./objects/controllerfunctions.o: \
+  ..\..\libraries\cmsis\dsp\Source\ControllerFunctions\ControllerFunctions.c \
+  ..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_init_f32.c \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\controller_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\none.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\utils.h \
+  ..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_init_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_init_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_reset_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_reset_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_pid_reset_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_sin_cos_f32.c \
+  ..\..\libraries\cmsis\cm4\core_support\arm_common_tables.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h \
+  ..\..\libraries\cmsis\dsp\Source\ControllerFunctions\arm_sin_cos_q31.c

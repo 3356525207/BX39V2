@@ -1,0 +1,19 @@
+./objects/at32m412_416_scfg.o: \
+  ..\..\libraries\drivers\src\at32m412_416_scfg.c \
+  ..\inc\at32m412_416_conf.h \
+  ..\..\libraries\drivers\inc\at32m412_416_adc.h \
+  ..\..\libraries\cmsis\cm4\device_support\at32m412_416.h \
+  ..\..\libraries\cmsis\cm4\core_support\core_cm4.h \
+  ..\..\libraries\cmsis\cm4\device_support\system_at32m412_416.h \
+  ..\..\libraries\drivers\inc\at32m412_416_def.h \
+  ..\..\libraries\drivers\inc\at32m412_416_crm.h \
+  ..\..\libraries\drivers\inc\at32m412_416_debug.h \
+  ..\..\libraries\drivers\inc\at32m412_416_dma.h \
+  ..\..\libraries\drivers\inc\at32m412_416_exint.h \
+  ..\..\libraries\drivers\inc\at32m412_416_flash.h \
+  ..\..\libraries\drivers\inc\at32m412_416_gpio.h \
+  ..\..\libraries\drivers\inc\at32m412_416_misc.h \
+  ..\..\libraries\drivers\inc\at32m412_416_pwc.h \
+  ..\..\libraries\drivers\inc\at32m412_416_scfg.h \
+  ..\..\libraries\drivers\inc\at32m412_416_tmr.h \
+  ..\..\libraries\drivers\inc\at32m412_416_usart.h

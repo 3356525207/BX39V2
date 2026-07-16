@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i '197s/.*/{\t\t\t    unsigned char temp_data = \\(unsigned char\\)g_TempProtect.current_temp;\\\\n\t\t\t    SendResponse\\(0x02, 0x02, 0x01, \\\\&temp_data\\);\\\\n\t\t\t}/' project/src/main.c)",
+      "Bash(sed -i '200s/.*/{\t\t\t    unsigned char temp_data[2];\\\\n\t\t\t    temp_data[0] = 0;                          \\\\/\\\\/ 高字节\\\\n\t\t\t    temp_data[1] = g_Sensoruse.IPM_TEMP;       \\\\/\\\\/ 低字节\\\\n\t\t\t    SendResponse\\(0x02, 0x03, 0x02, temp_data\\);\\\\n\t\t\t}/' project/src/main.c)",
+      "Bash(git checkout *)",
+      "Bash(sed -i '197s/.*/\t\t\t{\\\\n\t\t\t    unsigned char d = \\(unsigned char\\)g_TempProtect.current_temp;\\\\n\t\t\t    SendResponse\\(0x02, 0x02, 0x01, \\\\&d\\);\\\\n\t\t\t}/' project/src/main.c)",
+      "Bash(sed -i '199s/.*/\t\t\t{\\\\n\t\t\t    unsigned char d[2];\\\\n\t\t\t    d[0] = 0;\\\\n\t\t\t    d[1] = g_Sensoruse.IPM_TEMP;\\\\n\t\t\t    SendResponse\\(0x02, 0x03, 0x02, d\\);\\\\n\t\t\t}/' project/src/main.c)"
+    ]
+  }
+}

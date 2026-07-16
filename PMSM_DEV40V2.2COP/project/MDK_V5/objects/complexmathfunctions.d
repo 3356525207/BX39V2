@@ -1,0 +1,33 @@
+./objects/complexmathfunctions.o: \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\ComplexMathFunctions.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_conj_f32.c \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\complex_math_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\none.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\utils.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_conj_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_conj_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_dot_prod_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_dot_prod_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_f64.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_fast_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_squared_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_squared_f64.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mag_squared_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_f64.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_cmplx_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_real_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_real_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\ComplexMathFunctions\arm_cmplx_mult_real_q31.c

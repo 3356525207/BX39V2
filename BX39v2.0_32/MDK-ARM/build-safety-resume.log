@@ -1,0 +1,9 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keil5\ARM\arm5\Bin'
+Build target 'N32G003'
+compiling ctrl_tx.c...
+linking...
+Program Size: Code=25710 RO-data=2218 RW-data=212 ZI-data=1404  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output=.\bin\LedBlink.bin .\Objects\LedBlink.axf
+".\Objects\LedBlink.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:01

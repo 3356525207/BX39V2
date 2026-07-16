@@ -1,0 +1,36 @@
+./objects/distancefunctions.o: \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\DistanceFunctions.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_boolean_distance.c \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\distance_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\none.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\utils.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\statistics_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_boolean_distance_template.h \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_braycurtis_distance_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_canberra_distance_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_chebyshev_distance_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_chebyshev_distance_f64.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_cityblock_distance_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_cityblock_distance_f64.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_correlation_distance_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_cosine_distance_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_cosine_distance_f64.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_dice_distance.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_euclidean_distance_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_euclidean_distance_f64.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_hamming_distance.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_jaccard_distance.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_jensenshannon_distance_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_kulsinski_distance.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_minkowski_distance_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_rogerstanimoto_distance.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_russellrao_distance.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_sokalmichener_distance.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_sokalsneath_distance.c \
+  ..\..\libraries\cmsis\dsp\Source\DistanceFunctions\arm_yule_distance.c

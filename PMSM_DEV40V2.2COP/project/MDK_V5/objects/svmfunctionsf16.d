@@ -1,0 +1,19 @@
+./objects/svmfunctionsf16.o: \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Source\SVMFunctions\SVMFunctionsF16.c \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Source\SVMFunctions\arm_svm_linear_init_f16.c \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\svm_functions_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types_f16.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\none.h \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\utils.h \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Include\dsp\svm_defines.h \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Source\SVMFunctions\arm_svm_linear_predict_f16.c \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Source\SVMFunctions\arm_svm_polynomial_init_f16.c \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Source\SVMFunctions\arm_svm_polynomial_predict_f16.c \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Source\SVMFunctions\arm_svm_rbf_init_f16.c \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Source\SVMFunctions\arm_svm_rbf_predict_f16.c \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Source\SVMFunctions\arm_svm_sigmoid_init_f16.c \
+  D:\MDK\Arm\Packs\ARM\CMSIS-DSP\1.16.2\Source\SVMFunctions\arm_svm_sigmoid_predict_f16.c

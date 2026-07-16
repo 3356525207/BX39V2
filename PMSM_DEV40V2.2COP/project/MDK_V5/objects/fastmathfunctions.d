@@ -1,0 +1,30 @@
+./objects/fastmathfunctions.o: \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\FastMathFunctions.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_cos_f32.c \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\fast_math_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_types.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
+  ..\..\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_math_memory.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\none.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\utils.h \
+  ..\..\libraries\cmsis\cm4\core_support\dsp\basic_math_functions.h \
+  ..\..\libraries\cmsis\cm4\core_support\arm_common_tables.h \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_cos_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_cos_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sin_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sin_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sin_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sqrt_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_sqrt_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vexp_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vexp_f64.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vlog_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vlog_f64.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_divide_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_divide_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vlog_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_vlog_q15.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_atan2_f32.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_atan2_q31.c \
+  ..\..\libraries\cmsis\dsp\Source\FastMathFunctions\arm_atan2_q15.c
